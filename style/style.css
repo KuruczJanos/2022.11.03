@@ -23,7 +23,7 @@ body{
 #container #header h1{
     color: white;
     font-size: 5rem;
-    padding: 10px 40px;
+    padding: 60px 60px;
 }
 #content h2{
     color: white;
@@ -37,12 +37,12 @@ body{
 }
 #main{background-color: #333030;}
 #nav{
-    width: 19.9999%;
+    width: 24.9999%;
     float: left;
     
 }
 #content{
-    width: 79.999%;
+    width: 74.999%;
     float: left;
     background-color: white;
     padding: 20px;
