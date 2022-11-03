@@ -13,13 +13,86 @@ body{
 #container{
     max-width: 1000px;
     margin: 0 auto;
+    width: 95%;
 }
 #header{
     background: url(../pics/bg-header.jpg) no-repeat;
     height: 200px;
+    
 }
 #container #header h1{
     color: white;
     font-size: 5rem;
     padding: 10px 40px;
 }
+#content h2{
+    color: white;
+    font-size: 3rem;
+}
+#content h2 span{
+    background-color: green;
+    line-height: 1.5;
+    border-left:  10px solid green; 
+    border-right: 10px solid green;
+}
+#main{background-color: #333030;}
+#nav{
+    width: 19.9999%;
+    float: left;
+    
+}
+#content{
+    width: 79.999%;
+    float: left;
+    background-color: white;
+    padding: 20px;
+}
+#content p{
+    padding-bottom: 15px;
+    line-height: 1.5;
+}
+#main:after, p:after, footer:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #nav ul{
+    list-style: none;
+    padding: 30px 20px;
+    
+  }
+  #nav ul a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 0px;
+    display: block;
+  }
+  #nav ul li{
+    border-bottom: 1px dashed white;
+  }
+  #nav ul a:hover{
+    padding-left: 15px;
+    background-color: rgba(255,255,255,.2);
+
+  }
+  .jobb{
+    float: right;
+    padding: 0 0 0 10px;
+  }
+  .bal{
+    float: left;
+    padding: 0 10px 0 0;
+  }
+  .jobbos{
+    float: right;
+  }
+  .balos{
+    float: left;
+  }
+  #footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .jobbos a{
+    color: black;
+  }
